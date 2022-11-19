@@ -4,7 +4,12 @@
     box-sizing: border-box;
 }
 
+html, body{
+    height: 100%;
+}
+
 /* HEADER/NAVBAR */
+
 .list-group{
     display: flex;
     flex-direction: row;
@@ -18,3 +23,24 @@
     width: 500px;
 }
 
+/* SIDEBAR */
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    height: 100%;
+}
+#sidebar {
+    width: 180px;
+    background-color: #051e34;
+    color: #fff;
+    height: 100%;
+}
+#sidebar ul li a{
+    color: white;
+    margin-left: 28px;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+}
