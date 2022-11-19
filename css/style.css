@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* HEADER/NAVBAR */
+.list-group{
+    display: flex;
+    flex-direction: row;
+}
+.search{
+    background-color: #e5e5e5;
+    border-radius: 7px;
+}
+
+.search-bar{
+    width: 500px;
+}
+
