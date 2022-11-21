@@ -21,6 +21,8 @@ html, body{
 
 .search-bar{
     width: 500px;
+    background-color: #e5e5e5;
+    border-radius: 7px;
 }
 
 /* SIDEBAR */
@@ -30,6 +32,7 @@ html, body{
     width: 100%;
     align-items: stretch;
     height: 100%;
+    overflow-y: auto;
 }
 #sidebar {
     width: 180px;
@@ -43,4 +46,5 @@ html, body{
     text-align: center;
     font-size: 18px;
     padding: 15px;
+    line-height: 2;
 }
