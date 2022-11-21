@@ -48,3 +48,7 @@ html, body{
     padding: 15px;
     line-height: 2;
 }
+.admin{
+    position: relative;
+    top: 1000px;
+}
