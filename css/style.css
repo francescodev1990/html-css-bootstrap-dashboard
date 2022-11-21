@@ -32,7 +32,6 @@ html, body{
     width: 100%;
     align-items: stretch;
     height: 100%;
-    overflow-y: auto;
 }
 #sidebar {
     width: 180px;
@@ -42,13 +41,12 @@ html, body{
 }
 #sidebar ul li a{
     color: white;
-    margin-left: 28px;
     text-align: center;
     font-size: 18px;
-    padding: 15px;
+    padding: 45px;
     line-height: 2;
 }
 .admin{
     position: relative;
-    top: 920px;
+    top: 900px;
 }
