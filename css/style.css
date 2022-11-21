@@ -22,6 +22,9 @@ header{
     background-color: #e5e5e5;
     border-radius: 7px;
 }
+.list-group i{
+    color: black;
+}
 
 /* SIDEBAR */
 
@@ -71,4 +74,32 @@ i{
     border: 1px solid white;
     border-radius: 7px;
     background-color:  #ba6be8;
+}
+
+/* TABELLA */
+
+.btn-done{
+    color: white;
+    background-color: #198754;
+    border-radius: 7px;
+    padding: 1px;
+    border: none;
+}
+.btn-process{
+    color: white;
+    background-color: #ffc107;
+    border-radius: 7px;
+    padding: 1px;
+    border: none;
+}
+.btn-failed{
+    color: white;
+    background-color: red;
+    border-radius: 7px;
+    padding: 1px;
+    border: none;
+}
+.table i{
+    color: black;
+    padding: 4px;
 }
