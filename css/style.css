@@ -4,12 +4,10 @@
     box-sizing: border-box;
 }
 
-html, body{
-    height: 100%;
-}
-
 /* HEADER/NAVBAR */
-
+header{
+    height: 70px;
+}
 .list-group{
     display: flex;
     flex-direction: row;
@@ -27,18 +25,17 @@ html, body{
 
 /* SIDEBAR */
 
-.wrapper {
-    display: flex;
-    width: 100%;
-    align-items: stretch;
-    height: 100%;
-}
-#sidebar {
-    width: 180px;
+.wrapper{
+    height: calc(100vh - 70px);
+    width: 150px;
     background-color: #051e34;
-    color: #fff;
-    height: 100%;
 }
+.aside-end{
+    display: flex;
+    flex-direction: column;
+    
+}
+
 #sidebar ul li a{
     color: white;
     text-align: center;
@@ -46,7 +43,4 @@ html, body{
     padding: 45px;
     line-height: 2;
 }
-.admin{
-    position: relative;
-    top: 900px;
-}
+
