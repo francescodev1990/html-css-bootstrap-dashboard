@@ -27,15 +27,48 @@ header{
 
 .wrapper{
     height: calc(100vh - 70px);
-    width: 150px;
+    display: flex;
+}
+.nav-menu{
     background-color: #051e34;
+    width: 150px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-#sidebar ul li a{
+/* MAIN */
+
+.main{
+    width: calc(100vw - 150px);
+}
+#btn-label{
+    background-color: #165bba;
+    border-radius: 15px;
+    border: none;
+    padding: 2px;
+    font-size: 13px;
+    margin: 1px;
     color: white;
-    text-align: center;
-    font-size: 18px;
-    padding: 45px;
-    line-height: 2;
 }
-
+#btn-label:hover{
+    background-color: transparent;
+}
+.text{
+    font-size: 30px;
+    color: white;
+}
+i{
+    color: white;
+}
+.text-2{
+    font-size: 28px;
+}
+#btn-plus{
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 7px;
+    background-color:  #ba6be8;
+}
