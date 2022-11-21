@@ -30,11 +30,6 @@ header{
     width: 150px;
     background-color: #051e34;
 }
-.aside-end{
-    display: flex;
-    flex-direction: column;
-    
-}
 
 #sidebar ul li a{
     color: white;
