@@ -77,27 +77,26 @@ i{
 
 /* TABELLA */
 
-.btn-done{
+.btn-done, .btn-process, .btn-failed{
     color: white;
-    background-color: #198754;
     border-radius: 7px;
     padding: 1px;
     border: none;
+}
+
+.btn-done{
+    background-color: #198754;
 }
 .btn-process{
-    color: white;
     background-color: #ffc107;
-    border-radius: 7px;
-    padding: 1px;
-    border: none;
 }
 .btn-failed{
-    color: white;
     background-color: red;
-    border-radius: 7px;
-    padding: 1px;
-    border: none;
 }
 .table img{
     padding: 1px;
+}
+.table thead tr:hover{
+    background-color: lightseagreen;
+    cursor: pointer;
 }
