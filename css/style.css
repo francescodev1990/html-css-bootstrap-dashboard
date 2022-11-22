@@ -25,7 +25,6 @@ header{
 .list-group i{
     color: black;
 }
-
 /* SIDEBAR */
 
 .wrapper{
@@ -99,7 +98,6 @@ i{
     padding: 1px;
     border: none;
 }
-.table i{
-    color: black;
-    padding: 4px;
+.table img{
+    padding: 1px;
 }
